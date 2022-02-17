@@ -1,0 +1,68 @@
+.mobnav{
+    min-height: 6%;
+}
+
+.navlogo-light{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: black;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-right: 13vw;
+}
+
+.navlogo-dark{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-right: 13vw;
+}
+
+
+.searchwrap{
+    margin-right: 9vw;
+    background-color: #fff;
+    border-radius: 2%;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.inp{
+    height: 100%;
+}
+
+.switchwrap{
+    margin-right: 2vw;
+}
+
+
+
+.siwrap-light{
+    padding-right: 1%;
+    padding-top: 1%;
+    color: black;
+    background-color: #cadef5;
+}
+
+.siwrap-dark{
+    padding-right: 1%;
+    padding-top: 1%;
+    color: white;
+    background-color: #051c30;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

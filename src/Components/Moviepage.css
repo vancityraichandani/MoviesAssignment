@@ -1,0 +1,198 @@
+.loaderwrap{
+    margin: 20% 48%;
+}
+
+.movie-card{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.cwrap{
+    color: #1e3c68;
+}
+
+.ava-light{
+    width: 75%;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.ava-dark{
+    width: 75%;
+    border: 5px solid white;
+    border-radius: 100%;
+}
+
+.avawrap{
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+
+/* .ref{
+    display: flex;
+    position: absolute;
+    top: 155%;
+    left: 45%;
+    justify-content: center;
+    align-items: center;
+}
+
+.refwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.btn{
+    border: 2px solid;
+    font-weight: bold;
+}
+
+.modalwrap-light{
+    text-align: center;
+    border: 6px solid #036077;
+    /* max-height: 100vh; */
+    background-image: url('../Assets/flower-light.png');
+}
+
+.modalwrap-dark{
+    text-align: center;
+    border: 6px solid #9ed7e6;
+    /* max-height: 100vh;     */
+    background-image: url('../Assets/moddark.jpg');
+}
+
+
+.modal-ava-light{
+    width: 35%;
+    border: 2px solid black;
+}
+
+.modal-ava-dark{
+    min-width: 35%;
+    border: 5px solid white;
+}
+
+.modal-desc-light{
+color: black;
+}
+
+.modal-desc-dark{
+color: #9ed7e6;
+}
+
+.cardmob{
+    /* min-height: 80%; */
+    width: 17%;
+    border-radius: 5%;
+    background-color: red;
+    height: auto;
+    margin-top: 9%;
+}
+
+
+.btn{
+    position: fixed;
+    top: 14%;
+    left: 44%
+}
+
+
+/* media queries */
+
+/* 1000px */
+
+@media screen and (max-width:1000px){
+    .cardmob{
+        width:27%;
+        /* height:66vh; */
+        border-radius: 5%;
+        /* margin-top: 10%; */
+    }
+    .movie-card{
+        width: 900px;
+        margin-top: 7%;
+    }
+} 
+
+
+/* 600px */
+
+@media screen and (max-width:650px){
+    .cardmob{
+        width:37%;
+        /* height:65vh; */
+        border-radius: 5%;
+        /* margin-top: 10%; */
+    }
+    .movie-card{
+        width: 900px;
+        margin-top: 10%;
+    }.btn{
+        top: 10%;
+        
+    }
+    /* .navlogo-light{
+        display: none;
+    }
+    .navlogo-dark{
+        display: none;
+    } */
+} 
+
+
+
+
+
+/* 400px */
+
+@media screen and (max-width:450px){
+    .cardmob{
+        width:55%;
+        /* height:65vh; */
+        border-radius: 5%;
+        /* margin-top: 10%; */
+        
+    }
+    .movie-card{
+        width: 600px;
+        margin-top: 28%;
+    }.btn{
+        top: 10%;
+        left: 37%;
+    }
+    /* .navlogo-light{
+        display: none;
+    }
+    .navlogo-dark{
+        display: none;
+    } */
+} 
+
+
+
+
+
+
+
+
+
+
+.test{
+    color: #051c30;
+}
+
